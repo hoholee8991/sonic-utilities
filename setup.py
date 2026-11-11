@@ -178,7 +178,7 @@ setup(
         'scripts/thermalctl',
         'scripts/s1_pmon_poll.sh',
         'scripts/s2_thermalctl.sh',
-        'scripts/s3_syncd_collect.sh',
+        'scripts/s3_syncd_stat.sh',
         'scripts/tunnelstat',
         'scripts/update_json.py',
         'scripts/sensorshow',
