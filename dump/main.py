@@ -35,7 +35,7 @@ def dump(ctx):
 
 @dump.command()
 @click.pass_context
-@click.argument('module', required=True, type=str, autocompletion=get_available_modules)
+@click.argument('module', required=True, type=str, shell_complete=get_available_modules)
 @click.argument('identifier', required=True, type=str)
 @click.option('--show', '-s', is_flag=True, default=False, expose_value=False,
               callback=show_modules, help='Display Modules Available', is_eager=True)
